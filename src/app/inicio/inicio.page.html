@@ -3,19 +3,34 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Bienvenido a Innva Mobile</ion-title>
+    <ion-title>Bienvenido a Innova Mobile</ion-title>
+  </ion-toolbar>
+  <ion-toolbar color="primary">
+    <ion-searchbar placeholder="Buscar" animated (ionChange)="search($event)"></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-card>
-    <ion-card-content>
-      <ion-item>
-        <ion-label>Descripciones de Productos
-        </ion-label>
-      </ion-item>
-    </ion-card-content>
-  </ion-card>
+  <ion-list>
+    <ion-list-header> Sugerencias </ion-list-header>
+
+    <ion-item *ngFor="let suges of searchV">
+      <ion-avatar slot="start">
+        <img src="assets/img/homePageImg/{{suges.image}}" />
+      </ion-avatar>
+      <ion-avatar slot="end">
+         <ion-icon name="arrow-forward-outline" [routerLink]="['/contenido' ,suges.id]"></ion-icon>
+      </ion-avatar>
+      <ion-label>
+        <h2 class="colorBlue">{{suges.titulo}} </h2>
+        <h3>{{suges.mina}}</h3>
+        <p>{{suges.descripcion}}</p>
+      </ion-label>
+    </ion-item>
+
+    
+     
+  </ion-list>
   
   
   <ion-content>

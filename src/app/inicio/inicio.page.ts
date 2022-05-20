@@ -2,6 +2,8 @@ import { JsonPipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ToastController } from '@ionic/angular';
 import * as moment from 'moment';
+import { HttpClient } from '@angular/common/http';
+import {map}from "rxjs/operators";
 
 @Component({
   selector: 'app-inicio',
@@ -11,6 +13,9 @@ import * as moment from 'moment';
 export class InicioPage implements OnInit {
 
   fecha: string;
+  sugencias:any =[];
+  searchV: any;
+  
 
   entradas: Array<{
     fecha: string,
@@ -24,13 +29,18 @@ export class InicioPage implements OnInit {
     texto: string
   };
 
-  constructor(public toastController: ToastController) { 
+  constructor(public toastController: ToastController, private http:HttpClient) { 
     moment.locale('es-mx');
+    
     
 
   }
 
   ngOnInit() {
+    this.getSug().subscribe(res=>{
+      this.sugencias=res;
+      this.searchV=this.sugencias;
+    });
   }
 
   cargarEntradas(){
@@ -97,6 +107,23 @@ export class InicioPage implements OnInit {
   guardarItem(entrada:{fecha: string,fechaTexto: string,texto: string }){
     this.entradas.push(entrada);
     localStorage.setItem('entradas',JSON.stringify(this.entradas));
+  }
+  getSug(){
+    return this.http
+    .get("assets/file/sugerencias.json")
+    .pipe(
+    map((res:any) =>{
+      return res.data;
+    }))
+  }
+  search(event){
+    const texto= event.target.value;
+    this.searchV=this.sugencias;
+    if(texto && texto.trim() != ''){
+      this.searchV= this.searchV.filter((suge:any)=>{
+        return(suge.titulo.toLowerCase().indexOf(texto.toLowerCase())>-1);
+      })
+    }
   }
 
 }

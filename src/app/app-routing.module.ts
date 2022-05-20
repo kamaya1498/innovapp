@@ -24,6 +24,12 @@ const routes: Routes = [
     loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule),
     canActivate:[IngresadoGuard]
   },
+  {
+    path: 'contenido/:id',
+    loadChildren: () => import('./contenido/contenido.module').then( m => m.ContenidoPageModule)
+    ,canActivate:[IngresadoGuard]
+    
+  },
   
 ];
 
