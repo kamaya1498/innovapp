@@ -1,0 +1,42 @@
+{
+    "data":[
+    {
+        "id":1,
+    "titulo":"Luminarias",
+    "mina":"Una Buena Idea de ahorro",
+    "descripcion":"Cotiza con nosotros",
+    "image":"luminaria.jpeg"
+    },
+    {   
+        "id":2,
+    "titulo":"Rotulos LED",
+    "mina":"Una Buena Idea de ahorro",
+    "descripcion":"I've got enough on my plate as it is, and Agradecemos por su confianza en nuestro trabajo, en Innova Public",
+    "image":"rotulo.jpeg"
+    },
+    {
+        "id":3,
+    "titulo":"Proyectos PYMES",
+    "mina":"proyectos innovadores",
+    "descripcion":"Cotiza...",
+    "image":"promover.png"
+    },
+    {
+        "id":4,
+    "titulo":"@innapublic",
+    "mina":"Un alcance fuera de tus paradigmas",
+    "descripcion":["Tienes un bar en @innovapublic podemos ser el aliado estratégico en rotulación led que tú negocio necesita!",
+    "  ¡Cotizaciones al instante:  ",
+     "  + 503 7822 7638  ",
+     "   innovapublic.sv@gmail.com  "],
+    "image":"bar.jpeg"
+    },
+    {
+        "id":5,
+    "titulo":"InnovaWay",
+    "mina":"New Forms solutions",
+    "descripcion":"Celebremos juntos estas fiestas de fin de año con el #sorteo que Innova Public trae para ti Gana un rótulo Led personalizado valorado en $100 ¿Como participar? comparte esta publicación en tu historia y menciona nuestra pagina @innovapublic sigue nuestra cuenta  comenta porque quieres ganar y menciona a 5 amigos (Ellos deberán seguir nuestra pagina tambien)  recuerda mientras más comentes y amigos menciones tienes más oportunidades de ganar Finaliza el 16 de Diciembre a la media noche Los ganadores serán anunciados por stories y por mensaje privado",
+    "image":"inno.jpeg"
+    }
+    ]
+}

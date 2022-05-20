@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar color="medium">
+    <ion-buttons slot="start">
+      
+      <ion-button  [routerLink]="['/menu/inicio']" ><ion-icon name="arrow-back-outline"></ion-icon></ion-button>
+      
+     </ion-buttons>
+    <ion-title>{{titulo}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+      <img src="../../assets/img/homePageImg/{{image}}">
+      
+  </ion-card>
+  <div class="des">{{descripcion}}</div>
+</ion-content>
