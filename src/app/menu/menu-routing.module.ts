@@ -15,6 +15,10 @@ const routes: Routes = [
       path: 'inicio',
       loadChildren: () => import('../inicio/inicio.module').then( m => m.InicioPageModule)
     },
+    {
+      path: 'cotiza',
+      loadChildren: () => import('../cotiza/cotiza.module').then( m => m.CotizaPageModule)
+    },
     ]
   }
 ];

@@ -18,10 +18,16 @@ export class MenuPage implements OnInit {
       icono: 'home'
     },
     {
-      titulo: 'Catalogo',
+      titulo: 'Galeria de arte',
       url: '/menu/biblioteca',
       icono: 'book'
-    }
+    },
+    {
+      titulo: 'Cotiza',
+      url: '/menu/cotiza',
+      icono: 'wallet'
+    },
+
   ]
 
   constructor(public alertController: AlertController,

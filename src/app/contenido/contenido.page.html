@@ -16,3 +16,14 @@
   </ion-card>
   <div class="des">{{descripcion}}</div>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar color="medium">
+    <ion-buttons slot="end">
+      <ion-icon [name]="'wallet'"></ion-icon>
+      <ion-button [routerLink]="['/menu/cotiza']">
+        Cotizar
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
