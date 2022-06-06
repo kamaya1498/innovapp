@@ -9,7 +9,7 @@
 
 <ion-content>
   <ion-col sizeLg="6" sizeXs="12" sizeMd="6" *ngFor="let gal of sugencias">
-    <ion-card>
+    <ion-card [routerLink]="['/contenido-galeria' ,gal.id]">
       <img src="assets/img/homePageImg/{{gal.image}}">
       <div class="card-title">{{gal.titulo}}</div>
     </ion-card>

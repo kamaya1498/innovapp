@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EmailComposer } from '@awesome-cordova-plugins/email-composer/ngx';
 
+
 @Component({
   selector: 'app-cotiza',
   templateUrl: './cotiza.page.html',

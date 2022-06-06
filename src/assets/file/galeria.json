@@ -2,41 +2,41 @@
     "data":[
     {
         "id":1,
-    "titulo":"Luminarias",
-    "mina":"Una Buena Idea de ahorro",
+    "titulo":"Le damos vida a tus ideas!",
+    "mina":"Innova Public",
     "descripcion":"El funcionamiento de este proyecto es bastante sencillo. Todo lo que tienes que hacer es colocar un cartel de Eu Te Empresto en tu condominio, universidad o comercio. En él deberás señalar qué objetos tienes disponibles para prestarle a otros miembros de la comunidad y evitar que ellos tengan que hacer un gasto. De la misma forma, tú podrás pedir prestado un montón de cosas como, por ejemplo: bicicletas, herramientas, escaleras, impresoras, linternas, juegos de mesa, extensiones, computadoras, libros y materiales de limpieza",
-    "image":"luminaria.jpeg"
+    "image":"arte1.jpg"
     },
     {   
         "id":2,
-    "titulo":"Rotulos LED",
-    "mina":"Una Buena Idea de ahorro",
-    "descripcion":"I've got enough on my plate as it is, and Agradecemos por su confianza en nuestro trabajo, en Innova Public",
-    "image":"rotulo.jpeg"
+    "titulo":"Coffe Yes",
+    "mina":"Innova Public",
+    "descripcion":"NO PUEDO COMPRAR FELICIDAD PERO PUEDO COMPRAR CAFE",
+    "image":"coff.jpg"
     },
     {
         "id":3,
-    "titulo":"Proyectos PYMES",
-    "mina":"proyectos innovadores",
-    "descripcion":"Tikku es un micro edificio de apartamentos que cabe dentro de un espacio de 2.5 x 5 metros. La filosofía de este proyecto es que, en donde un carro puede entrar, también Tikku lo puede hacer. Lo mejor de este concepto, es que es completamente modular, muy fácil de construir y es capaz de producir su propia energía gracias a los paneles solares ubicados en la parte superior de la estructura.",
-    "image":"promover.png"
+    "titulo":"Letrero Cafecito",
+    "mina":"Innova Public",
+    "descripcion":"la combinación perfecta en un letrero luminoso",
+    "image":"coff2.jpg"
     },
     {
         "id":4,
-    "titulo":"@innapublic",
-    "mina":"Un alcance fuera de tus paradigmas",
-    "descripcion":["Tienes un bar en @innovapublic podemos ser el aliado estratégico en rotulación led que tú negocio necesita!",
+    "titulo":"El Salvador",
+    "mina":"Estamos en todos lados",
+    "descripcion":["en Residencial Bernal. @innovapublic podemos ser el aliado estratégico en rotulación led que tú negocio necesita!",
     "  ¡Cotizaciones al instante:  ",
      "  + 503 7822 7638  ",
      "   innovapublic.sv@gmail.com  "],
-    "image":"bar.jpeg"
+    "image":"pub.jpg"
     },
     {
         "id":5,
-    "titulo":"InnovaWay",
-    "mina":"New Forms solutions",
-    "descripcion":"Celebremos juntos estas fiestas de fin de año con el #sorteo que Innova Public trae para ti Gana un rótulo Led personalizado valorado en $100 ¿Como participar? comparte esta publicación en tu historia y menciona nuestra pagina @innovapublic sigue nuestra cuenta  comenta porque quieres ganar y menciona a 5 amigos (Ellos deberán seguir nuestra pagina tambien)  recuerda mientras más comentes y amigos menciones tienes más oportunidades de ganar Finaliza el 16 de Diciembre a la media noche Los ganadores serán anunciados por stories y por mensaje privado",
-    "image":"inno.jpeg"
+    "titulo":"El Chamo",
+    "mina":"Sabores Venezolanos",
+    "descripcion":"encuentra calidad en rotulación LED 🔆, somos lo que tu negocio necesita ¡",
+    "image":"tienda.jpg"
     }
     ]
 }

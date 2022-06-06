@@ -30,6 +30,10 @@ const routes: Routes = [
     ,canActivate:[IngresadoGuard]
     
   },
+  {
+    path: 'contenido-galeria/:id',
+    loadChildren: () => import('./contenido-galeria/contenido-galeria.module').then( m => m.ContenidoGaleriaPageModule)
+  },
   
   
 ];
